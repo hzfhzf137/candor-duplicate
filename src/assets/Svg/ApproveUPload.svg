@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_697_143762)">
+<rect x="14" y="10" width="100" height="100" rx="8" fill="url(#paint0_radial_697_143762)"/>
+</g>
+<path d="M73.6036 76.6668C76.3953 76.6876 79.0828 75.646 81.1453 73.771C87.9578 67.8126 84.3119 55.8543 75.3328 54.7293C72.1244 35.271 44.0619 42.646 50.7078 61.1668" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M54.166 62.0209C53.0619 61.4584 51.8327 61.1667 50.6035 61.1876C40.8952 61.8751 40.916 76.0001 50.6035 76.6876" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M71.959 55.6042C73.0423 55.0625 74.209 54.7708 75.4173 54.75" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66.0208 76.6665H57.6875" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M61.8535 80.8333V72.5" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_697_143762" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="7"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.34902 0 0 0 0 0.341176 0 0 0 0 0.584314 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_697_143762"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_697_143762" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_697_143762" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2.81579 0.789468) rotate(46.5131) scale(123.321 73.8008)">
+<stop stop-color="#AEBFF2"/>
+<stop offset="1" stop-color="#94A2F2"/>
+</radialGradient>
+</defs>
+</svg>

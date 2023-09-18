@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    padding: 10px 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+::placeholder {
+    font-family: 'Lexend', sans-serif;
+    font-size: 10px !important;
+    font-weight: 300 !important;
+}
+
+.placeholder-input-modal::placeholder {
+    font-family: 'Lexend', sans-serif;
+    font-size: calc(0.6rem + 0.2vw) !important;
+}
+
+.search-box-placeholder::placeholder {
+    font-size: 15px !important;
+}
+
+.ant-input::placeholder {
+    font-size: 14px !important;
+}
+
+.placeholder-ant-share .ant-input::placeholder {
+    font-size: calc(0.7rem + 0.4vw) !important;
+}
+
+.custom-play::placeholder {
+    font-size: calc(0.7rem + 0.4vw) !important;
+
+}
+
+.video-icon {
+    width: calc(1rem + 0.7vw)
+}
+
+.desktop-icon {
+    width: calc(1rem + 0.3vw)
+}
+
+.mobile-icon {
+    width: calc(1rem + 0.2vw)
+}
+
+.img-size {
+    width: calc(14rem + 3vw)
+}
+
+.aud-img-size {
+    width: calc(18rem + 1.2vw);
+
+}

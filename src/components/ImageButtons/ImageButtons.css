@@ -1,0 +1,7 @@
+.bg-img-intro {
+    background: url("../../assets/Svg/girlImgWithIcon.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}

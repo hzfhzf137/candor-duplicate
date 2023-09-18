@@ -1,0 +1,52 @@
+.bg-img {
+    /* background-image: url("../../assets/Svg/center-video.svg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bg-img-dummy {
+    background-image: url("../../assets/Svg/center-video.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-aud-img {
+    background-image: url("../../assets/Svg/center-audio.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.custom-style {
+    height: calc(100vh - 180px);
+}
+
+.title-size {
+    font-size: calc(0.8rem + 0.5vw);
+}
+
+.subtitle-size {
+    font-size: calc(0.8rem + 0.3vw);
+}
+
+.inner-size {
+    font-size: calc(0.7rem + 0.2vw);
+}
+
+.icon-size {
+    width: calc(1rem + 1vw);
+}
+
+.subicon-size {
+    width: calc(0.7rem + 0.3vw);
+}
+
+.p-datepicker-touch-ui,
+.p-calendar .p-datepicker-touch-ui {
+    min-width: 30% !important;
+}
+
+#image-pointer {
+    cursor: pointer;
+}

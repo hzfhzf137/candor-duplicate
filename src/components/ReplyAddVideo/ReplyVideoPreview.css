@@ -1,0 +1,12 @@
+
+.bgImg {
+    background-image: url("../../assets/Svg/ReplyVideoImage.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgImgPlay {
+    background-image: url("../../assets/Svg/ApproveBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

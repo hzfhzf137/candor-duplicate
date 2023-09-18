@@ -1,0 +1,115 @@
+.bgImg {
+    background-image: url("../../assets/Svg/ReplyVideoImage.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgImgPlay {
+    background-image: url("../../assets/Svg/ApproveBg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CSS */
+.video_div {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* You can adjust this as per your need */
+    overflow: hidden;
+}
+
+.video_div .content {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    object-fit: contain;
+}
+
+.content3 {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.videoRec_div {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* You can adjust this as per your need */
+    /* overflow: hidden; */
+}
+
+.videoRec_div .video2 video {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    object-fit: contain;
+    /* z-index: 1; */
+}
+
+.recorded-player video {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}
+
+.videoRec_div .content2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Other styles for the content overlaying the video */
+}
+
+@media only screen and (max-width: 1600px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 900px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .video_div .content,
+    .videoRec_div .video2 video {
+        height: 280px;
+    }
+}

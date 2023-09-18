@@ -1,0 +1,21 @@
+.p-button {
+    display: none;
+}
+
+@media (max-width: 760px) {
+    .p-button {
+        display: flex;
+    }
+}
+
+.p-sidebar .p-sidebar-content {
+    padding: 0px;
+}
+
+.p-sidebar-icon {
+    display: none;
+}
+
+.p-sidebar .p-sidebar-header {
+    padding: 0px;
+}

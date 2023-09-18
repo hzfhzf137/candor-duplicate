@@ -1,0 +1,4 @@
+.add-another-step::placeholder {
+    color: #3a37a6 !important;
+    font-size: calc(0.7rem + 0.4vw) !important;
+}
