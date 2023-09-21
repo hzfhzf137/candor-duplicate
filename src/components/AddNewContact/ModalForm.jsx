@@ -1,6 +1,4 @@
 import React from "react";
-// import CloseIcon from "./CloseIcon";
-// import Modal from "./Modal";
 
 function ModalForm(props) {
     const onFormSubmit=(event)=>
@@ -8,7 +6,7 @@ function ModalForm(props) {
         event.preventDefault();
     }
   return (
-    // <Modal modalCloseHandler={props.modalCloseHandler}>
+    <div className=" h-[100vh] bg-black/50 relative">
       <div className="  top-1/4 fixed rounded-md bg-white lg:w-1/3 lg:ml-[25vw] mid:w-1/3 mid:ml-[15vw] sm:w-3/5 sm:ml-[15vw] xxxs: w-3/5 xxxs:ml-[20vw] ">
         <div className="flex justify-between mt-5 mb-5">
           <div className="pl-5 font-medium">
@@ -18,8 +16,7 @@ function ModalForm(props) {
             className="cursor-pointer pr-5"
             onClick={props.modalCloseHandler}
           >
-            *
-            {/* <CloseIcon/> */}
+          <img src="src\assets\Svg\CloseIcon.svg" alt="close option" />
           </div>
         </div>
         <hr />
@@ -29,7 +26,7 @@ function ModalForm(props) {
             <div className="pl-5 mr-5">
               <label htmlFor="fname" className="text-xs">First Name</label>
               <br />
-              <input type="text" id="fname" className="w-full h-8 mt-2 rounded-md bg-gray-100 placeholder:pl-5 text-xs" placeholder="Enter your Name"/>
+              <input type="text" id="fname" className="w-full h-8 mt-2 rounded-md bg-gray-100 placeholder:pl-5 text-xs" placeholder= {` Enter your Name`}/>
             </div>
             <div className="pr-5">
               <label htmlFor="lname" className="text-xs">Last Name</label>
@@ -56,7 +53,7 @@ function ModalForm(props) {
           </div>
         </form>
       </div>
-    // </Modal>
+    </div>
   );
 }
 

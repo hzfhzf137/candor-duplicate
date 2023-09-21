@@ -15,7 +15,7 @@ function AddNewContactButton() {
 
   return (
     <React.Fragment >
-       <button onClick={modalOpenHandler} className='float-right w-10 h-10 rounded bg-blue-300' >Add</button>
+       <button onClick={modalOpenHandler} className='float-right w-14 h-14 rounded' ><img src="src\assets\Svg\add-contact.svg" alt="user icon" /></button>
         {isOpen && <ModalForm modalCloseHandler={modalCloseHandler}/>}
         
     </React.Fragment>
