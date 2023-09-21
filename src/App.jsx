@@ -11,6 +11,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import ShareConversationPublic from "./components/ShareConversationPublic/ShareConversationPublic";
 import ShareStep from "./components/ShareStep/ShareStep";
+import AddNewContactButton from "./components/AddNewContact/AddNewContactButton";
 
 const DefaultLayout = ({ children }) => {
   const { module, setModule } = useGlobalInfo();
@@ -50,6 +51,7 @@ const DefaultLayout = ({ children }) => {
             className="xxxxl:overflow-hidden"
           >
             {children}
+            <AddNewContactButton></AddNewContactButton>
           </Content>
         </Layout>
       </Layout>
