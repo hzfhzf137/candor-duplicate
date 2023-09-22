@@ -55,6 +55,7 @@ const DefaultLayout = ({ children }) => {
           </Content>
         </Layout>
       </Layout>
+
       {/* )}  */}
     </>
   );
